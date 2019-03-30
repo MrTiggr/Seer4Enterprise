@@ -12,6 +12,15 @@
             "region": "westus",
             "id": "general"
         },
+		{
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "340b44a5-3b8b-4aec-8eff-a07918f9c1df",
+            "subscriptionKey": "d5b2ae9a740749939685736782ecd890",
+            "endpointKey": "65356916-a473-4d45-b48b-0734a52e4b42",
+            "hostname": "https://seer4enterpriseen-qnahost.azurewebsites.net/qnamaker"
+        },
         {
             "type": "luis",
             "name": "Seer4Enterpriseen_Calendar",
@@ -61,16 +70,6 @@
             "endpointKey": "65356916-a473-4d45-b48b-0734a52e4b42",
             "hostname": "https://seer4enterpriseen-qnahost.azurewebsites.net/qnamaker"
         },
-		{
-            "type": "qna",
-            "name": "FAQ",
-            "id": "faq",
-            "kbId": "340b44a5-3b8b-4aec-8eff-a07918f9c1df",
-            "subscriptionKey": "d5b2ae9a740749939685736782ecd890",
-            "endpointKey": "65356916-a473-4d45-b48b-0734a52e4b42",
-            "hostname": "https://seer4enterpriseen-qnahost.azurewebsites.net/qnamaker"
-        },
-		
         {
             "type": "dispatch",
             "serviceIds": [

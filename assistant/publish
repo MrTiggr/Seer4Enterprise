@@ -1,0 +1,2 @@
+#!/bin/bash
+az bot publish --resource-group Seer4Enterprise -n Seer4Enterprise --subscription 51e7a311-8b87-4750-9562-9e76222573d8 -v v4 --proj-name "VirtualAssistant.csproj" 

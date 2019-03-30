@@ -1,0 +1,1 @@
+az bot publish --resource-group Seer4Enterprise -n Seer4Enterprise --subscription 51e7a311-8b87-4750-9562-9e76222573d8 -v v4 --proj-file-path "..\\VirtualAssistant.csproj" --timeout 9600000 --verbose

@@ -1,0 +1,89 @@
+{
+    "name": "Seer4Enterprise",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "38287a14-2ed3-42a8-8d6d-e96c01032ca4",
+            "id": "199",
+            "name": "Seer4Enterprise",
+            "resourceGroup": "Seer4Enterprise",
+            "serviceName": "Seer4Enterprise",
+            "subscriptionId": "51e7a311-8b87-4750-9562-9e76222573d8",
+            "tenantId": "792fc9a4-3964-41a1-8ec8-a09fef7088dd"
+        },
+        {
+            "type": "endpoint",
+            "appId": "38287a14-2ed3-42a8-8d6d-e96c01032ca4",
+            "appPassword": "90GBQx3a8gio4l2Fu4nUTg==!qIolqsFOlk43g9H/x80c2MFsKBHg9nqGcU8INrUt92A=",
+            "endpoint": "http://localhost:5000/api/messages",
+            "id": "1",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "38287a14-2ed3-42a8-8d6d-e96c01032ca4",
+            "appPassword": "8Lp30XW332VfkeigIvEl5g==!6gEzg/o+pzyXpHkycqSzfvKG0LJ/yDzxG+g9uSTHyPk=",
+            "endpoint": "https://seer4enterprise.azurewebsites.net/api/messages",
+            "id": "108",
+            "name": "production"
+        },
+        {
+            "type": "blob",
+            "connectionString": "YtnDHnKQtjHkr+NyKT/Yxg==!wwMec+vJt7FDd58OpouyR0gU/CdqyaIppGhIqyWAQAcMrwj0bHrG7sxqysKCt/6kviLCt7CUBQRs/hY5CAaKWS4euuPeAvn0SR+8yrBOKLHFt1tWjLn8Hr97u1cYUNgMUvwmmNIokDCLiDp5WrAKlGsTEkCYxQzIkYZ/2rnDIbczmA+Pkl6Qphk8W5b5wnqvD4yeEBnvGGThfFKwU7IqZCupu4VJj+l+bLzGN/SF7XTJyHZ+ekd/00EPtgYESz3H",
+            "container": "transcripts",
+            "id": "2",
+            "name": "seer4enterprise",
+            "resourceGroup": "Seer4Enterprise",
+            "serviceName": "seer4enterprise",
+            "subscriptionId": "51e7a311-8b87-4750-9562-9e76222573d8",
+            "tenantId": "792fc9a4-3964-41a1-8ec8-a09fef7088dd"
+        },
+        {
+            "type": "appInsights",
+            "apiKeys": {},
+            "applicationId": "1e505d56-2c05-455a-93a5-3753b87f168e",
+            "id": "3",
+            "instrumentationKey": "d4C6MM2v/X5T/7a5Zeuz+Q==!SdhEwcsYPuMs0m8mk9aAwGrNmSY4SjkOEK1gjEoqAHx3UNxXmaGW4ZODViv/Dba9",
+            "name": "Seer4Enterprise",
+            "resourceGroup": "Seer4Enterprise",
+            "serviceName": "Seer4Enterprise",
+            "subscriptionId": "51e7a311-8b87-4750-9562-9e76222573d8",
+            "tenantId": "792fc9a4-3964-41a1-8ec8-a09fef7088dd"
+        },
+        {
+            "type": "cosmosdb",
+            "collection": "botstate-collection",
+            "database": "botstate-db",
+            "endpoint": "https://seer4enterprise.documents.azure.com:443/",
+            "id": "8",
+            "key": "gfuzVnP1IMlMKVz2fmLIvQ==!wb3TIy4dZPWteNAt9JtHiwq8rPZVVsa1vsOUCpBlc3wWF79V7Jnd5Q5/B0XDITDxLnWFqZDkFsLWwDdHGzX0vjNUq8MZwlI4NaeBFOSDyWBAfazmiikRCp/FGrJ5WlRX",
+            "name": "seer4enterprise",
+            "resourceGroup": "Seer4Enterprise",
+            "serviceName": "seer4enterprise",
+            "subscriptionId": "51e7a311-8b87-4750-9562-9e76222573d8",
+            "tenantId": "792fc9a4-3964-41a1-8ec8-a09fef7088dd"
+        },
+        {
+            "type": "endpoint",
+            "appId": "38287a14-2ed3-42a8-8d6d-e96c01032ca4",
+            "appPassword": "F5i+TtpwG1XpWOfnbPKp/g==!e8gVYR/tb3c8K5ELGISL6TLf0A5vEInhFn4xPCCbEJU=",
+            "endpoint": "https://seer4enterprise.azurewebsites.net/api/messages",
+            "id": "95",
+            "name": "production"
+        },
+        {
+            "type": "generic",
+            "name": "Authentication",
+            "url": "portal.azure.net",
+            "configuration": {
+                "Seer4Enterprise": "+rGmlLfIedCCGFd0oEujqg==!U4tG48+aqA3eWItjIVC7M8WOPaUzD/x2j1fEM+KijuI="
+            },
+            "id": "244"
+        }
+    ],
+    "padlock": "fJJWm/j2GYkkFFI6a5Z5fA==!rNGIkpj2W98lEMrVRcEhv8grt0mNOXCjrwpwAQ/g2MvluYf25ttOuLUZkCpaPhuP",
+    "version": "2.0",
+    "path": "C:\\Projects\\seer\\VirtualAssistant\\assistant\\Seer4Enterprise.bot",
+    "overrides": null
+}

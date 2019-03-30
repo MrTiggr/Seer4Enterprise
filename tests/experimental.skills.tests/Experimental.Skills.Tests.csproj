@@ -20,11 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\experimental\skills\newsskill\NewsSkill.csproj" />
-    <ProjectReference Include="..\..\experimental\skills\restaurantbooking\RestaurantBooking.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Utterances\ExperimentalUtterances.Designer.cs">
       <DependentUpon>ExperimentalUtterances.resx</DependentUpon>
       <DesignTime>True</DesignTime>

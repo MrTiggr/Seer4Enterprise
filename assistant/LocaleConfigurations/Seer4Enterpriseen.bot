@@ -54,15 +54,6 @@
         },
         {
             "type": "qna",
-            "name": "FAQ",
-            "id": "faq",
-            "kbId": "776fa70c-ad23-4e37-bc73-12941dc6b0d8",
-            "subscriptionKey": "d5b2ae9a740749939685736782ecd890",
-            "endpointKey": "65356916-a473-4d45-b48b-0734a52e4b42",
-            "hostname": "https://seer4enterpriseen-qnahost.azurewebsites.net/qnamaker"
-        },
-        {
-            "type": "qna",
             "name": "ChitChat",
             "id": "chitchat",
             "kbId": "0f3ca64e-5398-466a-b0f6-7b9569959364",
@@ -72,8 +63,8 @@
         },
 		{
             "type": "qna",
-            "name": "ArcGIS Enterprise FAQ",
-            "id": "arcgis",
+            "name": "FAQ",
+            "id": "faq",
             "kbId": "340b44a5-3b8b-4aec-8eff-a07918f9c1df",
             "subscriptionKey": "d5b2ae9a740749939685736782ecd890",
             "endpointKey": "65356916-a473-4d45-b48b-0734a52e4b42",

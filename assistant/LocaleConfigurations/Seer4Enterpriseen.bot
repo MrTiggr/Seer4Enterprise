@@ -1,6 +1,6 @@
 {
     "name": "Seer4Enterpriseen",
-    "description": "",
+    "description": "Seer - Virtual Assistant for Esri Australia",
     "services": [
         {
             "type": "luis",
@@ -74,11 +74,11 @@
             "type": "dispatch",
             "serviceIds": [
                 "general",
-                "calendar",
-                "email",
-                "todo",
+                "faq",
                 "pointofinterest",
-                "faq"
+                "calendar",
+                "todo",
+                "email"
             ],
             "name": "Seer4Enterpriseen_Dispatch",
             "appId": "b9de43d7-897c-45d0-80e0-58614f8c3c3e",

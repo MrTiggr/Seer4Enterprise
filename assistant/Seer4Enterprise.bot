@@ -1,6 +1,6 @@
 {
     "name": "Seer4Enterprise",
-    "description": "",
+    "description": "Seer - Virtual Assistant for Esri Australia",
     "services": [
         {
             "type": "abs",

@@ -133,7 +133,7 @@ namespace VirtualAssistant.Dialogs.Main.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I&apos;m your Virtual Assistant! I can perform a number of tasks through my connected skills. Right now I can help you with Calendar, Email, Task and Point of Interest questions. Or you can help me do more by creating your own!.
+        ///   Looks up a localized string similar to I&apos;m Seer, your Virtual ArcGIS Assistant! I can perform a number of tasks through my connected skills. Right now I can help you with Calendar, Email, Task and Point of Interest questions. I also have a growing knowledgebase of ArcGIS Enterprise and other great products!.
         /// </summary>
         public static string HELP_TEXT {
             get {
@@ -142,7 +142,7 @@ namespace VirtualAssistant.Dialogs.Main.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Help for Virtual Assistant.
+        ///   Looks up a localized string similar to Help for Seer..
         /// </summary>
         public static string HELP_TITLE {
             get {

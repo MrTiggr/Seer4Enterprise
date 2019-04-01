@@ -61,7 +61,7 @@ namespace VirtualAssistant.Dialogs.Escalate.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our agents are available 24/7 at 1(800)555-1234..
+        ///   Looks up a localized string similar to Please Call MrTiggr (wleearcher@esriaustralia.com.au) or get a grown-up.
         /// </summary>
         public static string PHONE_INFO {
             get {

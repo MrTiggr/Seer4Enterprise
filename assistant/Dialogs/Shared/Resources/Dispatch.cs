@@ -10,18 +10,18 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.AI.Luis;
 namespace Luis
 {
-    public class Dispatch: IRecognizerConvert
+    public class Dispatch : IRecognizerConvert
     {
         public string Text;
         public string AlteredText;
         public enum Intent {
-            l_General, 
-            l_Calendar, 
-            l_Email, 
-            l_ToDo, 
-            l_PointOfInterest, 
-            q_FAQ, 
-            q_Chitchat, 
+            l_General,
+            l_Calendar,
+            l_Email,
+            l_ToDo,
+            l_PointOfInterest,
+            q_FAQ,
+            q_Chitchat,
             None
         };
         public Dictionary<Intent, IntentScore> Intents;
@@ -48,7 +48,7 @@ namespace Luis
         public _Entities Entities;
 
         [JsonExtensionData(ReadData = true, WriteData = true)]
-        public IDictionary<string, object> Properties {get; set; }
+        public IDictionary<string, object> Properties { get; set; }
 
         public void Convert(dynamic result)
         {
@@ -73,6 +73,32 @@ namespace Luis
                 }
             }
             return (maxIntent, max);
+        }
+
+        public (Intent intent, double score) TopFAQorIntent()
+        {
+            Intent maxIntent = Intent.None;
+            var max = 0.0;
+            foreach (var entry in Intents)
+            {
+
+                if (entry.Key == Dispatch.Intent.q_FAQ)
+                {
+                    if (entry.Value.Score > max)
+                    {
+                        maxIntent = entry.Key;
+                        max = entry.Value.Score.Value;
+                    }
+                }
+            }
+
+            if(maxIntent!=Intent.None){
+                return (maxIntent, max);
+            }
+            else
+            {
+                return TopIntent();
+            }
         }
     }
 }

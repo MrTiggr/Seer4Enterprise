@@ -22,6 +22,46 @@
             "hostname": "https://seer4enterpriseen-qnahost.azurewebsites.net/qnamaker"
         },
         {
+            "type": "luis",
+            "name": "Seer4Enterpriseen_Calendar",
+            "appId": "ae9eca7b-9ab9-455d-a204-1424371ec753",
+            "authoringKey": "0573273b89b443b08d5e8d1e62128b21",
+            "subscriptionKey": "0573273b89b443b08d5e8d1e62128b21",
+            "version": "0.1",
+            "region": "westus",
+            "id": "calendar"
+        },
+        {
+            "type": "luis",
+            "name": "Seer4Enterpriseen_Email",
+            "appId": "5776877e-b773-4403-9aa1-9cff6c978694",
+            "authoringKey": "0573273b89b443b08d5e8d1e62128b21",
+            "subscriptionKey": "0573273b89b443b08d5e8d1e62128b21",
+            "version": "0.1",
+            "region": "westus",
+            "id": "email"
+        },
+        {
+            "type": "luis",
+            "name": "Seer4Enterpriseen_ToDo",
+            "appId": "e300e42e-42ba-4180-a807-b621c46c8c02",
+            "authoringKey": "0573273b89b443b08d5e8d1e62128b21",
+            "subscriptionKey": "0573273b89b443b08d5e8d1e62128b21",
+            "version": "0.1",
+            "region": "westus",
+            "id": "todo"
+        },
+        {
+            "type": "luis",
+            "name": "Seer4Enterpriseen_PointOfInterest",
+            "appId": "c7cb9418-ebe8-45f6-b7fc-27e190ff803b",
+            "authoringKey": "0573273b89b443b08d5e8d1e62128b21",
+            "subscriptionKey": "0573273b89b443b08d5e8d1e62128b21",
+            "version": "0.1",
+            "region": "westus",
+            "id": "pointofinterest"
+        },
+        {
             "type": "qna",
             "name": "ChitChat",
             "id": "chitchat",
@@ -34,7 +74,11 @@
             "type": "dispatch",
             "serviceIds": [
                 "general",
-                "faq"
+                "faq",
+                "pointofinterest",
+                "calendar",
+                "todo",
+                "email"
             ],
             "name": "Seer4Enterpriseen_Dispatch",
             "appId": "b9de43d7-897c-45d0-80e0-58614f8c3c3e",

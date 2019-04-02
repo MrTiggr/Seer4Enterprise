@@ -130,7 +130,7 @@ namespace VirtualAssistant.Dialogs.Main
             // No dialog is currently on the stack and we haven't responded to the user
             // Check dispatch result
             var dispatchResult = await localeConfig.DispatchRecognizer.RecognizeAsync<Dispatch>(dc, CancellationToken.None);
-            var intent = dispatchResult.TopIntent().intent;
+            var intent = dispatchResult.TopFAQorIntent().intent;
 
             switch (intent)
             {
